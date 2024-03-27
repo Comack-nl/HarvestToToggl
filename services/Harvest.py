@@ -1,10 +1,9 @@
 import sys
-
 import requests
 
 from dotenv import dotenv_values
 
-config = dotenv_values('../.env')
+config = dotenv_values('.env')
 
 endpoints = {
     'time_entries': 'https://api.harvestapp.com/v2/time_entries'

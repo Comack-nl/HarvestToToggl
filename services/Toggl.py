@@ -4,7 +4,7 @@ import requests
 from dotenv import dotenv_values
 from base64 import b64encode
 
-config = dotenv_values('../.env')
+config = dotenv_values('.env')
 workspace_id = config.get('TOGGL_WORKSPACE_ID')
 token = config.get('TOGGL_TOKEN')
 
